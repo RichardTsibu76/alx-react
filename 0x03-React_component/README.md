@@ -1,1 +1,1 @@
-0x03. React component
+0x01. React intro
