@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 0s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -23,26 +23,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-body{
-  font-size: 2rem;
-}
-.Form{
-
-  display: flex;  
-  flex-direction: row;
-  justify-content: center;
-  align-items: space-between;
-  gap: 10px;
-}
-button{
-  background-color: grey;
-  border-radius: 50px;  
-}
-
-.App-footer{
-  font-size: 3rem;
-  color: red;
-}
 
 .App-link {
   color: #61dafb;
@@ -53,6 +33,6 @@ button{
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
